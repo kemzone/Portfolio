@@ -1,0 +1,345 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+  img{
+    max-width: 100%;
+  }
+  .container{
+    width: 100%;
+    max-width: 1173px;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .name{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .description{
+    margin-left: 9px;
+   }
+  .menu-logo {
+    display: flex;
+    align-items: center;
+  }
+  .avatar{
+    width: 57px;
+    height: 57px;
+    background: url('https://cdn3.savepice.ru/uploads/2019/1/30/f949f036ce19aaee241d01bbb6bd75d6-full.jpg') no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+  }
+  .menu-list{
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-list a{
+      text-decoration: none;
+      color: #2b2a2c;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-right: 30px;    
+      
+      
+  }
+  
+  .menu-button {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 2px solid #2b2a2c;
+    padding: 13px 22px;
+    background: white;
+  }
+  .menu-button:hover {
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    border: 2px solid blue;
+    
+    
+  }
+  .menu-list a:hover{  
+      border-bottom: 2px solid #2b2a2c;
+      cursor: pointer;
+      
+  }
+  .main-container{
+      margin-top: 10px;
+  }
+  .hero{
+    padding-top: 112px;  
+    background: url('https://get.pxhere.com/photo/computer-screen-light-technology-number-line-color-gadget-website-monitor-display-it-shape-code-screenshot-css-atmosphere-of-earth-computer-wallpaper-display-device-1215760.jpg') no-repeat right bottom;
+  }
+  .hero-subtitle{
+    font-size: 32px;
+    color: #fff;
+    
+  }
+  .hero-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .hero-discription{
+    font-size: 18px;
+    color: #fff;
+  }
+  .hero-social{
+    margin-top: 30px;
+  }
+  .social{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
+  }
+  .benance-bg{
+    background-color: #1869ff;
+    
+  }
+  .facebook-bg{
+    background-color: #3a5898;
+  }
+  .instagram-bg{
+    background-color: #13578a;
+  }
+  .vk-bg{
+    background-color: #56acef;
+  }
+  .hero-buttons{
+    margin-top: 40px;
+  }
+  .button{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    background-color: #2b2a2c;
+    border-radius: 50px;
+    padding: 20px 34px;
+    display: inline-block;
+  }
+  .button-primary{
+    color: #fff;    
+    margin-bottom: 10px;
+    
+  }
+  .button-primary:hover{
+    color: black;    
+    margin-bottom: 10px;
+    background-color: #fff;
+    transform: 0,5;    
+    cursor: pointer;
+  }
+  .button-o{
+    background-color: transparent;
+    color: #fff; 
+    border: 1px solid #fff; 
+    
+  }
+  .projects{
+    padding: 97px 0;
+    
+  }
+  .project-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+  }
+  .project-card{
+    min-height: 370px;
+    width: 370px; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    margin: 10px;
+  }
+  .project-card__image{
+    height: 300px;
+    
+  }
+  .landing-page{
+    background: url('../img/Header fon.png') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .java-page{
+    background: url('https://pp.userapi.com/c846218/v846218135/1405fa/D85nEgOe8ww.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .challenge-page{
+    background: url('https://pp.userapi.com/c845217/v845217540/b4922/MAKvkcOy5JU.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .project-card__info{
+    margin: 19px 13px;
+  }
+  .project-category{
+    display: block;
+    font-size: 12px;
+    color: #2b2a2c;
+  }
+  .project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  .wrapper{
+    display: flex;
+    margin-top: 175px;
+  }
+  .my-photo{
+    background: url('http://голограмма.su/images/k0956-500.jpg') no-repeat center;
+    background-size: 100%;
+    width: 542px;
+    height: 606px;
+  }
+  .my-info{
+    
+    margin-left: 50px;
+    width: 542px;
+    height: 606px;
+  }
+  .my-title{
+    font-size: 45px;
+    color: #2b2a2c;
+    
+  }
+  .my-text{
+    color: #2b2a2c;
+  }
+  .footer{
+    background-color: #2b2a2c;
+    margin-top: 105px;
+    padding: 20px 0;
+    color: #8d8d8e;
+  }
+  .footer a{
+    color: #8d8d8e;
+  }
+  .footer-info{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .footer-text{
+    display: flex;
+    align-items: center;
+    }
+  .copyright{
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #413f41;
+    font-size: 14px;
+  }
+  .footer-social__links{
+    font-size: 20px;
+    margin-right: 13px;
+    text-decoration: none;
+  }
+  .footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+  }
+  .footer-menu a{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    
+  }
+  .footer-button{
+    text-decoration: none;
+    
+    background-color: transperent;
+    border-radius: 50px;
+    border: 1px solid #8d8d8e;
+    padding: 8px 22px;
+    
+  }
+  @media (max-width: 1200px){
+    .container{
+      width: 965px;
+    }
+  }
+  @media (max-width: 992px){
+    .container{
+      width: 760px;
+    }
+    .project-card{
+      width: 48%;
+    }
+    .my-info{
+      display: flex;
+      flex-direction: column;
+    }
+    .copyright{
+      display: none;
+    }
+    .footer-menu{
+       display: none;
+       
+    }
+    .hero-buttons{
+      margin-top: 50px;
+    }
+       .footer {  
+    margin-top: 400px;
+         
+         
+  }
+    
+  }
+  @media (max-width: 768px){
+    .description-small{
+      font-size: 10px;
+    }
+    .menu-list a{
+      display: none;
+    }
+    .hero{
+      padding-bottom: 300px;
+    }
+    .container{
+      width: 95%;
+    }
+    .project-card{
+      width: 95%;
+      margin: 30px auto;
+    }
+    .copyright{
+      display: none;
+    }
+    .my-info{
+      display: flex;
+      flex-direction: column;
+    }
+    
+      .footer {  
+    margin-top: 400px;
+  }
+  }
